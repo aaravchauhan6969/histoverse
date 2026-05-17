@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HistoVerse</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            HISTOVERSE
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#ram">Ramayana</a></li>
+            <li><a href="#maha">Mahabharata</a></li>
+            <li><a href="#hist">History</a></li>
+        </ul>
+
+    </nav>
+
+    <section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <h1>HistoVerse</h1>
+
+        <p id="typing-text"">
+            
+        </p>
+
+        <button onclick="scrollToStories()">
+            Explore Stories
+        </button>
+
+    </div>
+
+</section>
+    <section class="stories-section">
+
+    <h2 class="section-title" id="ram">
+        Ramayana Stories
+    </h2>
+
+    <div class="stories-container" id="ramayana-container">
+
+    </div>
+
+</section>
+
+<section class="stories-section">
+
+    <h2 class="section-title" id="maha">
+        Mahabharata Stories
+    </h2>
+
+    <div class="stories-container" id="mahabharata-container">
+
+    </div>
+
+</section>
+
+<section class="stories-section">
+
+    <h2 class="section-title" id="hist">
+        Indian History
+    </h2>
+
+    <div class="stories-container" id="history-container">
+
+    </div>
+
+</section>
+
+    <canvas id="particles"></canvas>
+
+    <audio
+    id="bg-music"
+    loop
+>
+
+    <source
+    src="assests/music/bg-music.mp3"
+    type="audio/mp3">
+
+</audio>
+<script src="js/api.js"></script>
+
+<script src="js/app.js"></script>
+
+<script src="js/animations.js"></script>
+</body>
+</html>
