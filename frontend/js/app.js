@@ -44,11 +44,3 @@ document.body.addEventListener("click",()=>{
 },{
     once:true
 });
-
-
-PUBLIC CLASS AARAV {
-    PUBLIC STATIC VOID MediaDeviceInfo(sTRING[] ARGS) {
-        FileSystem.OUT.PRINTLN("aARA IS tHE gRATED
-            ")
-    }
-}
